@@ -1,6 +1,8 @@
 # Seam Carving with multiscale energy function
 The famous Seam Carving algorithm implemented in Python and OpenCV. A new energy function is proposed, consisting on the sum of a standard energy function on multiple lower scales, to prevent larger object deformation. The standard energy function is the absolute sum of the partial derivatives of each color channel.
 
+You can find the original paper [here](http://graphics.cs.cmu.edu/courses/15-463/2012_fall/hw/proj3-seamcarving/imret.pdf).
+
 ## Reduction
 
 ![Reduction](https://github.com/FedericoGarciaGarcia/SeamCarvingMultiscaleEnergyFunction/blob/master/images/reduce.png)
@@ -19,8 +21,6 @@ The famous Seam Carving algorithm implemented in Python and OpenCV. A new energy
 
 ## How to use
 
-### Requirements
-
 Install OpenCV:
 
 ```
@@ -33,15 +33,22 @@ If you also want contrib modules, run this one instead (not necessary):
 pip install opencv-contrib-python
 ```
 
+The file *seamCarving.py* includes all the necessary functions for Seam Carving.
+
 ### Examples
 
-Four example files are provided, with a folder with images. They can be run directly without arguments:
+Four example files are provided with a folder with images. They can be run directly without arguments:
 
 ```
 python code\example.py
 ```
 
-* **exampleIncrease.py**: 
+After each execution, a window is shown with the results.
+
+* **exampleEnlarge.py**: Enlarges an image horizontally by 50% using the standard energy function.
+* **exampleReduce.py**: Reduces an image horizontally by 50% using the standard energy function and the multiscale energy function.
+* **exampleMask.py**: Reduces an image horizontally by 50% using the standard energy function. A mask is applied to remove and to protect pixels.
+* **exampleMask.py**: Reduces an image horizontally by 50% using the standard energy function. A mask is applied to remove and to protect pixels.
 
 ## Authors
 
