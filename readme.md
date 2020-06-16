@@ -15,11 +15,13 @@ The famous Seam Carving algorithm implemented in Python and OpenCV. A new energy
 
 ## Interactive window
 
+![Window](https://github.com/FedericoGarciaGarcia/SeamCarvingMultiscaleEnergyFunction/blob/master/images/window.png)
+
 ## How to use
 
-### Modules
+### Requirements
 
-First, install OpenCV:
+Install OpenCV:
 
 ```
 pip install opencv-python
