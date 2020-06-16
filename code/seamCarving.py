@@ -104,7 +104,7 @@ def show(vim, titles, rows, cols):
     pass
 
 # Standard energy function.
-# Absolut sum of the partial derivatives of each color channel.
+# Absolute sum of the partial derivatives of each color channel.
 #
 #   src: source image
 #
