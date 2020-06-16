@@ -48,14 +48,8 @@ After each execution, a window is shown with the results.
 * **exampleEnlarge.py**: Enlarges an image horizontally by 50% using the standard energy function.
 * **exampleReduce.py**: Reduces an image horizontally by 50% using the standard energy function and the multiscale energy function.
 * **exampleMask.py**: Reduces an image horizontally by 50% using the standard energy function. A mask is applied to remove and to protect pixels.
-* **exampleMask.py**: Reduces an image horizontally by 50% using the standard energy function. A mask is applied to remove and to protect pixels.
+* **exampleWindow.py**: Finds all the horizontal seams of an image and opens up an interactive windows with a slider. Moving the slider to the left or right allows for image resizing.
 
 ## Authors
 
 * **Federico Garcia Garcia**
-
-## Acknowledgments
-
-Textures and materials taken from:
-* [3D Textures](https://3dtextures.me/)
-* [Texture Haven](https://texturehaven.com/textures/)
